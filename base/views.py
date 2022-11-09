@@ -149,3 +149,6 @@ def deleteMessage(request, pk):
         message.delete()
         return redirect('home')
     return render(request, 'base/delete.html' , {'obj':room})
+
+    # def updateUser():
+    #     return 1
